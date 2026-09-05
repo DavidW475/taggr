@@ -1,0 +1,14 @@
+# Everything the build does not need, so a changed readme is not a cache miss.
+.git
+.github
+.gitignore
+.taggr.yaml
+docker
+dist
+bin
+*.md
+*.test
+*.out
+coverage.*
+Dockerfile
+.dockerignore
