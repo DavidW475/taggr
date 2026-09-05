@@ -9,7 +9,7 @@
 #     -e AZP_POOL=Default \
 #     taggr-agent
 
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 
 # Agent version to bake into the image. Empty resolves the latest release at
 # build time; pin it (e.g. 4.255.0) for reproducible builds.
