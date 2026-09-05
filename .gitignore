@@ -1,0 +1,17 @@
+# Binaries
+/taggr
+/bin/
+/dist/
+
+# Test artifacts
+*.test
+*.out
+coverage.*
+
+# Local config
+.taggr.yaml
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
